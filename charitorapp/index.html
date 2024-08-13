@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--shift+!+shift-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charitor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#causes">Causes</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="banner">
+            <h1>Support causes you care about</h1>
+            <p>Enabling positive transformation through acts of kindness, empowerment, together. Join us in making a difference, one step at a time.</p>
+            <a class="cta" href="#cases">Active cases</a>
+        </section>
+        <section id="causes">
+            <h2>Our Causes</h2>
+            <p>Explore the causes we support and find out how you can contribute to positive change.</p>
+            <div class="cause">
+                <img src="images/image1.jpg" alt="image1" class="imgIcon">
+                <h3>Cause 1</h3>
+                <p>Support education for underprivileged children. Your donations can provide necessary resources and opportunities for learning.</p>
+                <a class="cta" href="#contact">Donate</a>
+            </div>
+            <div class="cause">
+                <img src="images/image2.jpg" alt="image2" class="imgIcon">
+                <h3>Cause 2</h3>
+                <p>Help fight climate change by supporting sustainable projects. Your efforts can contribute to a healthier planet.</p>
+                <a class="cta" href="#contact">Donate</a>
+            </div>
+            <div class="cause">
+                <img src="images/image3.png" alt="image3" class="imgIcon">
+                <h3>Cause 3</h3>
+                <p>Support local communities in need with essential supplies and services. Together, we can make a difference.</p>
+                <a class="cta" href="#contact">Donate</a>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Charitor, where we believe in the power of collective action to create positive change. Founded on the principles of empathy and community, our organization is dedicated to supporting and promoting causes that matter most.</p>
+            <h3>Our Mission</h3>
+            <p>Our mission is to drive impactful change through acts of kindness, empowerment, and collaboration. We partner with various initiatives to address critical issues such as education, environmental sustainability, and community support.</p>
+            <h3>Our Values</h3>
+            <ul>
+                <li><strong>Integrity:</strong> We uphold the highest standards of honesty and transparency in all our actions.</li>
+                <li><strong>Compassion:</strong> We are committed to understanding and addressing the needs of those we serve.</li>
+                <li><strong>Innovation:</strong> We embrace creative solutions and new approaches to tackle complex challenges.</li>
+                <li><strong>Collaboration:</strong> We work together with individuals, organizations, and communities to achieve our goals.</li>
+            </ul>
+            <h3>Our Impact</h3>
+            <p>Since our inception, Charitor has made significant strides in various areas. Our projects have provided educational resources to underserved communities, supported sustainable environmental practices, and helped local groups access essential supplies. We measure our success not just by the numbers, but by the tangible improvements in the lives of those we assist.</p> 
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form onsubmit="return validate()">
+                <label for="username">Username:</label>
+                <input id="username" class="fsize" type="text" name="username"><br><br>
+                <label for="email">Email:</label>
+                <input id="email" type="email" class="fsize" name="email"><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" placeholder="Enter message"></textarea><br><br>
+                <div id="msg" style="color: red; margin-bottom: 15px;"></div>
+                <input type="submit" value="submit">
+            </form>
+        </section>
+        <footer>
+            <p>2024 Developed by Company. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
